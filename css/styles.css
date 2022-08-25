@@ -896,9 +896,9 @@ img {
 
 .input-icon {
     position: absolute;
-    left: 14px;
+    left: 13px;
     top: 28px;
-    transform: translate(-50% -50%);
+
 }
 
 .modal-textarea {
