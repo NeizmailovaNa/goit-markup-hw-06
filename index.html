@@ -395,25 +395,50 @@
          </button>
          <p class="modal-title">Залиште свої дані, ми вам передзвонимо</p>
          <form>
-            <label class="label">
-               Ім'я
-              <input class="form-input" type="text" name="Ім'я" placeholder href="./images/modal-icons.svg#icon-modal-body" />
-            </label>
+            <div class="input-field">
+              <label for="user-name" class="input-title">Ім'я </label>
+              <input 
+                  class="form-input" 
+                  type="text" 
+                  name="user-name" 
+                  placeholder href="./images/modal-icons.svg#icon-modal-body"  
+                  id="user-name"
+               />
+               <svg class="input-icon">
+                  <use href="./images/icons.svg#icon-person-black"></use>
+               </svg>
+            </div>      
+            
+            <div class="input-field">
+              <label for="user-tel" class="input-title">Телефон</label>
+              <input 
+                  class="form-input" 
+                  type="tel" 
+                  name="user-tel" 
+                  placeholder="" 
+                  id="user-tel"
+               />
+            </div>   
 
-            <label class="label">
-               Телефон
-              <input class="form-input" type="number" name="Телефон" placeholder="" />
-            </label>
+            <div class="input-field">
+              <label for="user-email" class="input-title">Пошта</label>
+              <input 
+                  class="form-input" 
+                  type="email" 
+                  name="user-email" 
+                  placeholder="" 
+                  id="user-email"
+               />
+            </div> 
 
-            <label class="label">
-               Пошта
-              <input class="form-input" type="email" name="Пошта" placeholder="" />
-            </label>
-
-            <label class="label">
-               Коментар
-              <input class="form-input" type="text" name="Коментар" placeholder="Введіть текст" />
-            </label>
+            <div class="input-field">
+               <label for="user-comment" class="input-title">Коментар</label>
+               <textarea class="modal-textarea"
+                  name="user-comment" 
+                  id="user-comment"
+                  placeholder="Введіть текст"></textarea>
+             </div> 
+            <button type="submit" class="send-button">Відправити</button>
           </form>
       </div>
     </div>
