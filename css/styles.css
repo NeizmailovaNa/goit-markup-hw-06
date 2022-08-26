@@ -858,13 +858,10 @@ img {
     transform: translate(-50%, -50%);
     fill: var(--main-color);
 }
-
-.modal-close-svg:hover,
-.modal-close-svg:focus {
+.modal-close:focus + .modal-close-svg {
     fill: var(--blue-color);
-}   
-   
-
+}
+  
 .modal-title {
     font-weight: 700;
     font-size: 20px;
