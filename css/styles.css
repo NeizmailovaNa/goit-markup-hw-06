@@ -854,7 +854,6 @@ img {
 
 .modal-close-svg {
     position: absolute;
-    padding: 15px;
     transform: translate(-50%, -50%);
     fill: var(--main-color);
 }
