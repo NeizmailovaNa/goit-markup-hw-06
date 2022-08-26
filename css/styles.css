@@ -857,6 +857,7 @@ img {
     transform: translate(-50%, -50%);
     fill: var(--main-color);
 }
+.modal-close:hover + .modal-close-svg,
 .modal-close:focus + .modal-close-svg {
     fill: var(--blue-color);
 }
