@@ -964,7 +964,7 @@ img {
     color: var(--secondary-color);
 }
 
-.user-policy-span {
+.check-text span {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -978,7 +978,15 @@ img {
     transition: background-color var(--animation-time) var(--animation-cubic);
 }
 
-.input-check:checked + .user-policy-span {
+.check-mark-icon {
+    fill: transparent;
+}
+
+.input-check:checked + .check-text span {
     background-color: var(--blue-color) ;
     border: none;
+}
+
+.input-check:checked + .check-text .check-mark-icon {
+    fill: var(--white-color);
 }
