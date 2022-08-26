@@ -969,6 +969,10 @@ img {
 }
 
 .check-text span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
     width: 16px;
     height: 15px;
     margin-right: 8px;
@@ -980,6 +984,7 @@ img {
 }
 
 .check-mark-icon {
+
     fill: transparent;
 }
 
