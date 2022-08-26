@@ -854,14 +854,14 @@ img {
 
 .modal-close-svg {
     position: absolute;
-    padding: 1px;
+    
     transform: translate(-50%, -50%);
-    color: var(--main-color);
+    fill: var(--main-color);
 }
 
 .modal-close-svg:hover,
 .modal-close-svg:focus {
-    color: var(--blue-color);
+    fill: var(--blue-color);
 }   
    
 
