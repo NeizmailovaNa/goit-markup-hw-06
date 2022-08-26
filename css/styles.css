@@ -852,10 +852,18 @@ img {
     overflow: hidden;
 }
 
-.modal-svg {
+.modal-close-svg {
     position: absolute;
+    padding: 1px;
     transform: translate(-50%, -50%);
+    fill: var(--white-color);
 }
+
+.modal-close-svg:hover,
+.modal-close-svg:focus {
+    fill: var(--blue-color);
+}   
+   
 
 .modal-title {
     font-weight: 700;
@@ -903,7 +911,8 @@ img {
     border-radius: 4px;
 }
 
-.form-input:focus { 
+.form-input:focus,
+.modal-textarea:focus { 
     outline-color: var(--blue-color);
 }
 
@@ -922,6 +931,7 @@ img {
     border-radius: 4px;
     padding: 12px 16px 12px 16px;
     resize: none;
+    color: var(--blue-color);
 }
 
 .modal-textarea::placeholder {
