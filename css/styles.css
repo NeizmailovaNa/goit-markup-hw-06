@@ -859,7 +859,8 @@ img {
     fill: var(--main-color);
     transition: fill var(--animation-time) var(--animation-cubic), visibility var(--animation-time);
 }
-.modal-close:hover + .modal-close-svg {
+
+.modal-close-svg:hover {
     fill: var(--blue-color);
 }
   
