@@ -921,14 +921,22 @@ img {
     transition: fill var(--animation-time) var(--animation-cubic), visibility var(--animation-time);
 }
 
-.modal-close:hover + .modal-close-svg {
+.modal-close:hover,
+.modal-close:focus {
+    cursor: pointer;
+}
+
+.modal-close:hover .modal-close-svg,
+.modal-close:focus .modal-close-svg {
     fill: var(--blue-color);
+    cursor: pointer;
 }
   
 .modal-title {
+    text-align: center;
     font-weight: 700;
     font-size: 20px;
-    text-align: center;
+    letter-spacing: 0.03em;
     
     color: var(--main-color);
     margin-bottom: 12px;
@@ -1019,6 +1027,7 @@ img {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
+    letter-spacing: 0.03em;
 
     color: var(--secondary-color);
 }
@@ -1048,7 +1057,6 @@ img {
 }
 
 .check-mark-icon {
-
     fill: transparent;
 }
 
